@@ -73,3 +73,10 @@ plt.xlabel('Age')
 plt.ylabel('Estimated Salary')
 plt.legend()
 plt.show()
+
+# visualizing the confusion matrix
+sns.heatmap(cm, annot = True)
+plt.xlabel('Predicted Value')
+plt.ylabel('True Value')
+plt.gcf().set_size_inches(10,5)
+
